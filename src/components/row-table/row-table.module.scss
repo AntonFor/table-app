@@ -1,0 +1,34 @@
+.content {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.content__id-data {
+	flex: 0 1 10%;
+}
+
+.content__parent-data {
+	flex: 0 1 10%;
+	cursor: pointer;
+}
+
+.content__active-data {
+	flex: 1 1 20%;
+}
+
+.content__balance-data {
+	flex: 1 1 20%;
+}
+
+.content__name-data {
+	flex: 1 1 20%;
+}
+
+.content__email-data {
+	flex: 1 1 20%;
+}
+
+.cell {
+	padding-left: 10px;
+	border: 1px solid black;
+}

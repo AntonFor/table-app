@@ -1,0 +1,43 @@
+.header {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.container__id-data {
+	flex: 0 1 10%;
+}
+
+.container__parent-data {
+	flex: 0 1 10%;
+}
+
+.container__active-data {
+	flex: 1 1 20%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.container__balance-data {
+	flex: 1 1 20%;
+}
+
+.container__name-data {
+	flex: 1 1 20%;
+}
+
+.container__email-data {
+	flex: 1 1 20%;
+}
+
+.cell {
+	padding-left: 10px;
+	border: 1px solid black;
+}
+
+.label {
+	cursor: pointer;
+}
